@@ -1,33 +1,20 @@
 <template>
   <div id="center">
     <div class="index" v-show="index">
-      <p>欢迎登录！</p>
-      <img src="../assets/picture.png" alt="">
     </div>
-    <allOrder v-show="(listNum==='01' ? true : false)&&(ulNum==='01' ? true : false)"></allOrder>
-    <proList v-show="(listNum==='02' ? true : false)&&(ulNum==='01' ? true : false)"></proList>
-    <goodsList v-show="(listNum==='01' ? true : false)&&(ulNum==='02' ? true : false)"></goodsList>
-    <goodsClass v-show="(listNum==='02' ? true : false)&&(ulNum==='02' ? true : false)"></goodsClass>
-    <goodsInfo v-show="(listNum==='03' ? true : false)&&(ulNum==='02' ? true : false)"></goodsInfo>
-    <addGoods v-show="(listNum==='04' ? true : false)&&(ulNum==='02' ? true : false)"></addGoods>
-    <customerInfo v-show="(listNum==='01' ? true : false)&&(ulNum==='03' ? true : false)"></customerInfo>
-    <shopInfo v-show="(listNum==='01' ? true : false)&&(ulNum==='04' ? true : false)"></shopInfo>
-    <powerManage v-show="(listNum==='02' ? true : false)&&(ulNum==='04' ? true : false)"></powerManage>
-    <shopNotice v-show="(listNum==='01' ? true : false)&&(ulNum==='05' ? true : false)"></shopNotice>
-    <shopActivity v-show="(listNum==='02' ? true : false)&&(ulNum==='05' ? true : false)"></shopActivity>
-    <saleAll v-show="(listNum==='01' ? true : false)&&(ulNum==='06' ? true : false)"></saleAll>
-    <moneyAll v-show="(listNum==='02' ? true : false)&&(ulNum==='06' ? true : false)"></moneyAll>
-    <!-- <allOrder></allOrder> -->
-    <!-- <proList></proList> -->
-     <!-- <goodsInfo></goodsInfo> -->
-     <!-- <addGoods></addGoods> -->
-     <!-- <customerInfo></customerInfo> -->
-     <!-- <shopInfo></shopInfo> -->
-     <!-- <powerManage></powerManage> -->
-     <!-- <shopNotice></shopNotice> -->
-     <!-- <shopActivity></shopActivity> -->
-     <!-- <saleAll></saleAll> -->
-     <!-- <moneyAll></moneyAll> -->
+    <allOrder v-show="(listNum==='01')&&(ulNum==='01')"></allOrder>
+    <proList v-show="(listNum==='02')&&(ulNum==='01')"></proList>
+    <goodsList v-show="(listNum==='01')&&(ulNum==='02')"></goodsList>
+    <goodsClass v-show="(listNum==='02')&&(ulNum==='02')"></goodsClass>
+    <goodsInfo v-show="(listNum==='03')&&(ulNum==='02')"></goodsInfo>
+    <addGoods v-show="(listNum==='04')&&(ulNum==='02')"></addGoods>
+    <customerInfo v-show="(listNum==='01')&&(ulNum==='03')"></customerInfo>
+    <shopInfo v-show="(listNum==='01')&&(ulNum==='04')"></shopInfo>
+    <powerManage v-show="(listNum==='02')&&(ulNum==='04')"></powerManage>
+    <shopNotice v-show="(listNum==='01')&&(ulNum==='05')"></shopNotice>
+    <shopActivity v-show="(listNum==='02')&&(ulNum==='05')"></shopActivity>
+    <saleAll v-show="(listNum==='01')&&(ulNum==='06')"></saleAll>
+    <moneyAll v-show="(listNum==='02')&&(ulNum==='06')"></moneyAll>
   </div>
 </template>
 
@@ -89,7 +76,7 @@ export default {
   .index{
         position: relative;
         float: left;
-        width: 1080px;
+        width: 100vw;
         height: 900px;
         background-color: rgba(187, 187, 187, 0.8);
         border-right: 1px solid rgb(155, 67, 67);
