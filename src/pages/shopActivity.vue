@@ -203,7 +203,7 @@ export default {
 
 <style scoped lang="less">
 .shop-activity{
-    width: 1080px;
+    width: 100vw;
     height: 900px;
     background-color: rgba(187, 187, 187, 0.8);
     border-right: 1px solid rgb(211, 211, 211);

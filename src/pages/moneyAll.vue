@@ -201,7 +201,7 @@ export default {
 
 <style scoped lang="less">
 .money-all{
-    width: 1080px;
+    width: 100vw;
     height: 900px;
     background-color: rgba(187, 187, 187, 0.8);
     border-right: 1px solid rgb(211, 211, 211);
@@ -213,7 +213,7 @@ export default {
     
 }
 .money-ul{
-    width: 1080px;
+    width: 100vw;
     height: 60px;
     /* background-color: #FF9502; */
 }

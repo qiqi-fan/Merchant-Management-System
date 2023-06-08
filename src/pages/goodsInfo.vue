@@ -14,7 +14,7 @@
                 </li>
                 <li>数量
                     <a href=""><button class="num" @click="jian()">-</button></a> 
-                    <input type="text" v-bind:value='num' class="number">
+                    <input type="text" v-bind:value='commodity.num' class="number">
                     <a href=""><button class="num">+</button></a>
                     件
                 </li>
@@ -77,7 +77,7 @@ export default {
 
 <style scoped>
     .goods-info{
-        width: 1078px;
+        width: 100vw;
         height: 898px;
         border: 1px solid rgb(211, 211, 211);
         margin-top: -902px;

@@ -173,7 +173,7 @@ export default {
 
 <style scoped>
 .sale-all{
-    width: 1080px;
+    width: 100vw;
     height: 900px;
     background-color: rgba(187, 187, 187, 0.8);
     border-right: 1px solid rgb(211, 211, 211);
@@ -244,7 +244,7 @@ h2{
 }
 .ul-sale{
     /* clear: both; */
-    width: 1080px;
+    width: 100vw;
     height: 60px;
     /* margin-left: 40px; */
     /* background-color: aquamarine; */

@@ -52,19 +52,21 @@ export default {
 
     /* 顶部导航条 */
     .topper{
-        margin-top: -16px;
-        width: 1280px;
+      position: fixed;
+        margin-top: -80px;
+        width: 100vw;
         // width: 100%;
         height: 80px;
         background-color:rgba(20, 49, 87, 0.8);
         // border-bottom: rgb(243, 243, 243) 1px solid;
+        z-index: 100;
         nav{
             float: left;
             color:white;
             font-size: 25px;
             margin-left: 70px;
             line-height: 80px;
-            font-family:'黑体';
+            font-family:'黑体',serif;
             font-weight: 400;
         }
         li{

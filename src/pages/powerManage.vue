@@ -157,7 +157,7 @@ export default {
 
 <style scoped lang="less">
 .power-manege{
-    width: 1080px;
+    width: 100vw;
     height: 900px;
     /* background-color: rgb(206, 210, 214); */
     margin-top: -900px;

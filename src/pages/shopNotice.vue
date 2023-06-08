@@ -66,7 +66,7 @@ export default {
 
 <style scoped lang="less">
 .shop-notice{
-    width: 1080px;
+    width: 100vw;
     height: 900px;
     border-right: 1px solid rgb(211, 211, 211);
     border-bottom: 1px solid rgb(211, 211, 211);
@@ -78,7 +78,7 @@ export default {
     }
 }
 .notice-ul{
-    width: 1080px;
+    width: 100vw;
     height: 400px;
     li{
         width: 100%;

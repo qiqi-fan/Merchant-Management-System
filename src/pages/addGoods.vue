@@ -51,7 +51,7 @@ export default {
 
 <style scoped lang="less">
 .new-plus{
-    width: 1080px;
+    width: 100vw;
     height: 900px;
     /* background-color: antiquewhite; */
     margin-top: -900px;

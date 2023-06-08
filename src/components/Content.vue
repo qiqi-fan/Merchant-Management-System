@@ -1,9 +1,10 @@
 <template>
-  <div></div>
+  <div>12132</div>
 </template>
 
 <script>
 export default {
+  name: "LayoutContent"
 }
 </script>
 
